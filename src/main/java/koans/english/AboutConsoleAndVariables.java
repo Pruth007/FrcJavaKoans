@@ -27,8 +27,8 @@ public class AboutConsoleAndVariables {
      * Hello!
      * 
      */
-    public static void sayHelloInConsole() {
-
+    public static void sayHelloInConsole() { 
+        System.out.println("Hello!");
     }
 
     /**
@@ -55,6 +55,7 @@ public class AboutConsoleAndVariables {
      * 
      */
     public static void computeTwoAndTwo() {
+        System.out.println(2+2);
 
     }
 
@@ -71,6 +72,11 @@ public class AboutConsoleAndVariables {
      * For example, when the information is an integer number, the type is called 'int'.
      * Putting everything together, if we want to create a variable for the number of legs of a pig:
      * 
+     * 
+     *
+     * int-whole number
+     * double-decimal 
+     * String-text
      *      int pigNbOfLegs = 4;
      *       ^       ^        ^
      *      type   name     value
@@ -97,6 +103,8 @@ public class AboutConsoleAndVariables {
      * 4
      */
     public static void createAndDisplayAVariable() {
+        int pigNbOfLegs = 4;
+        System.out.println(4);
 
     }
 
@@ -117,7 +125,10 @@ public class AboutConsoleAndVariables {
      * 
      */
     public static void createAndDisplayAStringVariable() {
+        String msg = "Hello!";
+        System.out.println(msg);
 
+ 
     }
 
 
@@ -152,6 +163,10 @@ public class AboutConsoleAndVariables {
      * 
      */
     public static void askAndDisplayNameInConsole() {
+        System.out.println("What is your name?");
+        String u = readLine();
+        System.out.println("Your name is:");
+        System.out.println(u);
 
     }
 
@@ -198,6 +213,11 @@ public class AboutConsoleAndVariables {
      * 
      */
     public static void askAndDisplayNameOnASingleLineInConsole() {
+        System.out.println("What is your name?");
+        String u = readLine();
+        System.out.println("Your name is: " + u);
+
+
 
     }
 
@@ -226,6 +246,14 @@ public class AboutConsoleAndVariables {
      * 
      */
     public static void askNameAndAgeInConsole() {
+        System.out.println("What is your name?");
+        String u = readLine();
+        System.out.println("Your name is: " + u);
+        System.out.println("What is your age?");
+        String a = readLine();
+        System.out.println("What is your age:" + a);
+
+
 
     }
 
@@ -264,6 +292,14 @@ public class AboutConsoleAndVariables {
      * 
      */
     public static void computeAgeIn5YearsConsole() {
+        
+        String age1;
+        int age;
+        System.out.println("What is your name?");
+        int age =;
+        System.out.println("In five years from now you will be "+ age in five years + ".");
+
 
     }
 }
+
